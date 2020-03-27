@@ -18,6 +18,10 @@
 #### Starting up the app
 
 Type the following into the Terminal or Git Bash: `json-server --watch ./data/db.json`
+Check that the server is working properly by verifying with this [React application](https://w638oyk7o8.csb.app/)
+- In the form at the top of the page, enter the URL to your API Server
+- This server is configured to use the routes noted in the first lab requirement
+- If your server is working, this app will show your API Data!
 
 #### Tests
 
