@@ -1,7 +1,7 @@
 'use strict';
 
 const Collection = require('../collection.js');
-const schema = require('./category.js');
+const schema = require('./category-schema.js');
 
 class Categories extends Collection {
   constructor() {

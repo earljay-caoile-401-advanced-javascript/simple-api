@@ -6,8 +6,8 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/js-401n15-eoc/lab-06/pull/1)
-- [GitHub Actions](https://github.com/js-401n15-eoc/lab-06/actions)
+- [submission PR](https://github.com/earljay-caoile-401-advanced-javascript/simple-api/pull/1)
+- [GitHub Actions](https://github.com/earljay-caoile-401-advanced-javascript/simple-api/actions)
 
 #### Documentation
 

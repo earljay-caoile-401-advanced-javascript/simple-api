@@ -1,15 +1,15 @@
 {
   "name": "http-rest",
   "version": "1.0.0",
-  "description": "",
+  "description": "LAB: HTTP and REST",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "lint": "eslint **/.js",
+    "lint": "eslint",
     "test": "jest --coverage --verbose",
-    "test-watch": "jest --watchAll --coverage --verbose"
+    "watch": "jest --watchAll --coverage --verbose"
   },
   "author": "",
   "license": "ISC",
