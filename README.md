@@ -80,6 +80,6 @@ Check that the server is working properly by verifying with this [React applicat
 
 **Note**: the `category` property in a product must exactly match the name (not `display_name`) property for the React app to properly make the association between a `product` and its appropriate `category`
 
-#### UML
+### UML
 
 ![UML Image](lab-06-uml.png "uml diagram")
