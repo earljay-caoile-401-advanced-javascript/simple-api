@@ -1,4 +1,5 @@
 'use strict';
+
 const jsonServer = require('json-server');
 require('dotenv').config();
 const server = jsonServer.create();

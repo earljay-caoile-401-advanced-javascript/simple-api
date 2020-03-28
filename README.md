@@ -22,6 +22,7 @@
 Type the following into the Terminal or Git Bash: `json-server --watch ./data/db.json`
 
 Routes work off the following URL: `http://localhost:3000`
+
 - i.e.: get route for categories is `http://localhost:3000/categories`
 - get route for individual category is the whole get route plus category ID: i.e. `http://localhost:3000/categories/1`
 
@@ -30,14 +31,9 @@ Routes work off the following URL: `http://localhost:3000`
 Type the following into the Terminal or Git Bash: `node server.js`
 
 Routes work off the following URL: `http://localhost:3000/api/v1`
+
 - i.e.: get route for categories is `http://localhost:3000/api/v1/categories`
 - get route for individual category is the whole get route plus category ID: i.e. `http://localhost:3000/categories/api/v1/1`
-
-Check that the server is working properly by verifying with this [React application](https://w638oyk7o8.csb.app/)
-
-- In the form at the top of the page, enter the URL to your API Server
-- This server is configured to use the routes noted in the first lab requirement
-- If your server is working, this app will show your API Data!
 
 ### Endpoints (both original and stretch goal)
 
@@ -49,6 +45,7 @@ Check that the server is working properly by verifying with this [React applicat
 ### Data models
 
 Category:
+
 ```
 {
   "name": "mythical_weapons",
@@ -60,6 +57,7 @@ Category:
 ```
 
 Product:
+
 ```
 {
   "category": "mythical_weapons",
@@ -70,6 +68,14 @@ Product:
   "id": 1
 },
 ```
+
+### Verifying API
+
+Check that the server is working properly by verifying with this [React application](https://w638oyk7o8.csb.app/)
+
+- In the form at the top of the page, enter the URL to your API Server
+- This server is configured to use the routes noted in the first lab requirement
+- If your server is working, this app will show your API Data!
 
 **Note**: the `category` property in a product must exactly match the name (not `display_name`) property for the React app to properly make the association between a `product` and its appropriate `category`
 
