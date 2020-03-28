@@ -2,7 +2,7 @@
   "name": "http-rest",
   "version": "1.0.0",
   "description": "LAB: HTTP and REST",
-  "main": "index.js",
+  "main": "server.js",
   "directories": {
     "lib": "lib"
   },
