@@ -13,6 +13,12 @@
       "description": "Stuff fo yo crib!",
       "apiId": "v1",
       "id": 2
+    },
+    {
+      "name": "edited_dummy_cat",
+      "display_name": "Dummy Category Actually Edited Doe!",
+      "description": "up for deletion, but let me edit first",
+      "id": 3
     }
   ],
   "products": [
