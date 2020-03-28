@@ -82,4 +82,4 @@ Check that the server is working properly by verifying with this [React applicat
 
 #### UML
 
-![UML Image](lab-06-UML.png "uml diagram")
+![UML Image](lab-06-uml.png "uml diagram")
