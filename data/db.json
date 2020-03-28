@@ -8,17 +8,17 @@
       "id": 1
     },
     {
-      "name": "health_household_and_baby_care",
+      "name": "health_house_baby",
       "display_name": "Health, Household, and Baby Care",
       "description": "Stuff fo yo crib!",
       "apiId": "v1",
       "id": 2
     },
     {
-      "name": "edited_dummy_cat",
-      "display_name": "Dummy Category Actually Edited Doe!",
-      "description": "up for deletion, but let me edit first",
-      "id": 3
+      "name": "electronics",
+      "display_name": "Electronics",
+      "description": "Beep boop!",
+      "id": 4
     }
   ],
   "products": [
@@ -39,12 +39,33 @@
       "id": 2
     },
     {
-      "category": "health_household_and_baby_care",
+      "category": "health_house_baby",
       "name": "adhesive_medical_strips",
       "disdplay_name": "Adhesive Medical Strips",
       "description": "We can't use band-aid since that's a copyrighted compoany name, but that's pretty much what it is...",
       "apiId": "v1",
       "id": 3
+    },
+    {
+      "category": "electronics",
+      "name": "AMD_Ryzen_9_3950X",
+      "disdplay_name": "AMD Ryzen 9 3950X",
+      "description": "16 cores, 32 threads 2dank4me ayymd4life!",
+      "id": 4
+    },
+    {
+      "category": "electronics",
+      "name": "Intel_Core_i9_9900K",
+      "disdplay_name": "Intel Core i9-9900k",
+      "description": "That's a funny way to spell 'Shintel'!",
+      "id": 5
+    },
+    {
+      "category": "electronics",
+      "name": "Sennheiser_HD_650",
+      "disdplay_name": "Sennheiser HD 650",
+      "description": "open cans for dat muzak",
+      "id": 6
     }
   ]
 }

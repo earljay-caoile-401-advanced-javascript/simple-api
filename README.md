@@ -38,8 +38,11 @@ Routes work off the following URL: `http://localhost:3000/api/v1`
 ### Endpoints (both original and stretch goal)
 
 **/categories** GET, POST
+
 **/categories/:id/** PUT, DELETE
+
 **/products** GET, POST
+
 **/products/:id/** PUT, DELETE
 
 ### Data models
