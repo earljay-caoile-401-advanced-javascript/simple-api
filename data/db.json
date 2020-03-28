@@ -4,20 +4,18 @@
       "name": "mythical_weapons",
       "display_name": "Mythical Weapons",
       "description": "I shall smite thee!",
-      "apiId": "v1",
       "id": 1
     },
     {
       "name": "health_house_baby",
       "display_name": "Health, Household, and Baby Care",
       "description": "Stuff fo yo crib!",
-      "apiId": "v1",
       "id": 2
     },
     {
       "name": "electronics",
       "display_name": "Electronics",
-      "description": "Beep boop!",
+      "description": "Beep boop bzzt!",
       "id": 4
     }
   ],
@@ -25,45 +23,42 @@
     {
       "category": "mythical_weapons",
       "name": "mjolnir",
-      "disdplay_name": "Mjolnir",
+      "display_name": "Mjolnir",
       "description": "Thor's hammer. It can only be wielded by those who are worthy!",
-      "apiId": "v1",
       "id": 1
     },
     {
       "category": "mythical_weapons",
       "name": "gungnir",
-      "disdplay_name": "Gungnir",
+      "display_name": "Gungnir",
       "description": "Odin's spear. It supposedly doesn't miss...",
-      "apiId": "v1",
       "id": 2
     },
     {
       "category": "health_house_baby",
       "name": "adhesive_medical_strips",
-      "disdplay_name": "Adhesive Medical Strips",
+      "display_name": "Adhesive Medical Strips",
       "description": "We can't use band-aid since that's a copyrighted compoany name, but that's pretty much what it is...",
-      "apiId": "v1",
       "id": 3
     },
     {
       "category": "electronics",
       "name": "AMD_Ryzen_9_3950X",
-      "disdplay_name": "AMD Ryzen 9 3950X",
-      "description": "16 cores, 32 threads 2dank4me ayymd4life!",
+      "display_name": "AMD Ryzen 9 3950X",
+      "description": "open cans for dat muzak!!!1oneone",
       "id": 4
     },
     {
       "category": "electronics",
       "name": "Intel_Core_i9_9900K",
-      "disdplay_name": "Intel Core i9-9900k",
+      "display_name": "Intel Core i9-9900k",
       "description": "That's a funny way to spell 'Shintel'!",
       "id": 5
     },
     {
       "category": "electronics",
       "name": "Sennheiser_HD_650",
-      "disdplay_name": "Sennheiser HD 650",
+      "display_name": "Sennheiser HD 650",
       "description": "open cans for dat muzak",
       "id": 6
     }

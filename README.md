@@ -54,7 +54,6 @@ Category:
   "name": "mythical_weapons",
   "display_name": "Mythical Weapons",
   "description": "I shall smite thee!",
-  "apiId": "v1",
   "id": 1
 },
 ```
@@ -65,9 +64,8 @@ Product:
 {
   "category": "mythical_weapons",
   "name": "mjolnir",
-  "disdplay_name": "Mjolnir",
+  "display_name": "Mjolnir",
   "description": "Thor's hammer. It can only be wielded by those who are worthy!",
-  "apiId": "v1",
   "id": 1
 },
 ```
