@@ -39,9 +39,39 @@ Check that the server is working properly by verifying with this [React applicat
 - This server is configured to use the routes noted in the first lab requirement
 - If your server is working, this app will show your API Data!
 
-#### Tests
+### Endpoints (both original and stretch goal)
 
-- Testing command: `npm test` from root directory
+**/categories** GET, POST
+**/categories/:id/** PUT, DELETE
+**/products** GET, POST
+**/products/:id/** PUT, DELETE
+
+### Data models
+
+Category:
+```
+{
+  "name": "mythical_weapons",
+  "display_name": "Mythical Weapons",
+  "description": "I shall smite thee!",
+  "apiId": "v1",
+  "id": 1
+},
+```
+
+Product:
+```
+{
+  "category": "mythical_weapons",
+  "name": "mjolnir",
+  "disdplay_name": "Mjolnir",
+  "description": "Thor's hammer. It can only be wielded by those who are worthy!",
+  "apiId": "v1",
+  "id": 1
+},
+```
+
+**Note**: the `category` property in a product must exactly match the name (not `display_name`) property for the React app to properly make the association between a `product` and its appropriate `category`
 
 #### UML
 
