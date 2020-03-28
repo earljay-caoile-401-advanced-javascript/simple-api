@@ -7,7 +7,6 @@
 ### Links and Resources
 
 - [submission PR](https://github.com/earljay-caoile-401-advanced-javascript/simple-api/pull/1)
-- [GitHub Actions](https://github.com/earljay-caoile-401-advanced-javascript/simple-api/actions)
 
 #### Documentation
 
