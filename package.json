@@ -7,9 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "lint": "eslint",
-    "test": "jest --coverage --verbose",
-    "watch": "jest --watchAll --coverage --verbose"
+    "start": "node index.js",
+    "lint": "eslint **/*.js"
   },
   "author": "",
   "license": "ISC",
