@@ -24,9 +24,11 @@ Type the following into the Terminal or Git Bash: `json-server --watch ./data/db
 
 Type the following into the Terminal or Git Bash: `node server.js`
 
-### Homepage
+### Viewing Homepage
 
 Type `http://localhost:3000/` into your browser. A page should appear showing that you are running the server.
+
+![homepage](homepage.png "homepage")
 
 ### Endpoints (both original and stretch goal)
 
