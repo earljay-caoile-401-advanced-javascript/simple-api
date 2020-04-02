@@ -15,7 +15,11 @@ router.render = (req, res) => {
 };
 
 server.use(middlewares);
-server.use(router);
+server.use('/api/v1/', router);
+
+server.get('/:path', (req, res) => {
+  res.redirect(`/api/v1/${req.params.path}`);
+});
 
 server.listen(port, () => {
   console.log(`JSON server is running on port ${port}!`);

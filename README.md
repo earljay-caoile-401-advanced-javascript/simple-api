@@ -7,6 +7,7 @@
 ### Links and Resources
 
 - [submission PR](https://github.com/earljay-caoile-401-advanced-javascript/simple-api/pull/1)
+- [SwaggerHub API Info](https://app.swaggerhub.com/apis/ecaoile/Lab-06-API-CF-401-n16/0.1)
 
 #### Documentation
 
