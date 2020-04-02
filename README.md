@@ -21,21 +21,25 @@
 
 Type the following into the Terminal or Git Bash: `json-server --watch ./data/db.json`
 
+Routes work off the following URL: `http://localhost:3000`
+- i.e.: get route for categories is `http://localhost:3000/categories`
+- get route for an individual category is the whole get route plus category ID: i.e. `http://localhost:3000/categories/1`
+
 ##### Stretch Goal
 
-Type the following into the Terminal or Git Bash: `node server.js`
+Type the following into the Terminal or Git Bash: `nodemon server.js`
+
+Routes work off the following URL: `http://localhost:3000/api/v1`
+- i.e.: get route for categories is `http://localhost:3000/api/v1/categories`
+- get route for an individual category is the whole get route plus category ID: i.e. `http://localhost:3000/categories/api/v1/1`
 
 ### Viewing Homepage
 
-Type `http://localhost:3000/` into your browser. A page should appear showing that you are running the server.
+Type `http://localhost:3000/` into your browser. A page should appear showing that you are running the server. Below is the homepage with the stretch goal implementation (custom results shown)
 
 ![homepage](homepage.png "homepage")
 
-### Endpoints (both original and stretch goal)
-
-Routes work off the following URL: `http://localhost:3000`
-- i.e.: get route for categories is `http://localhost:3000/categories`
-- get route for individual category is the whole get route plus category ID: i.e. `http://localhost:3000/categories/1`
+#### Endpoints (both original and stretch goal)
 
 **/categories** GET, POST
 
@@ -74,7 +78,7 @@ Product:
 
 Check that the server is working properly by verifying with this [React application](https://w638oyk7o8.csb.app/)
 
-- In the form at the top of the page, enter the URL to your API Server
+- In the form at the top of the page, enter the URL to your API Server (`http://localhost:3000` for original lab and `http://localhost:3000/api/v1` for stretch goal)
 - This server is configured to use the routes noted in the first lab requirement
 - If your server is working, this app will show your API Data!
 
