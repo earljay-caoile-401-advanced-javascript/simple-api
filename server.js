@@ -15,7 +15,7 @@ router.render = (req, res) => {
 };
 
 server.use(middlewares);
-server.use('/api/v1', router);
+server.use(router);
 
 server.listen(port, () => {
   console.log(`JSON server is running on port ${port}!`);

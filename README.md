@@ -20,21 +20,19 @@
 
 Type the following into the Terminal or Git Bash: `json-server --watch ./data/db.json`
 
-Routes work off the following URL: `http://localhost:3000`
-
-- i.e.: get route for categories is `http://localhost:3000/categories`
-- get route for individual category is the whole get route plus category ID: i.e. `http://localhost:3000/categories/1`
-
 ##### Stretch Goal
 
 Type the following into the Terminal or Git Bash: `node server.js`
 
-Routes work off the following URL: `http://localhost:3000/api/v1`
+### Homepage
 
-- i.e.: get route for categories is `http://localhost:3000/api/v1/categories`
-- get route for individual category is the whole get route plus category ID: i.e. `http://localhost:3000/categories/api/v1/1`
+Type `http://localhost:3000/` into your browser. A page should appear showing that you are running the server.
 
 ### Endpoints (both original and stretch goal)
+
+Routes work off the following URL: `http://localhost:3000`
+- i.e.: get route for categories is `http://localhost:3000/categories`
+- get route for individual category is the whole get route plus category ID: i.e. `http://localhost:3000/categories/1`
 
 **/categories** GET, POST
 
